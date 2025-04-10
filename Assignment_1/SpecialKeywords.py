@@ -399,23 +399,53 @@ def Special_Keywords():
     def Async():
         print(f"\n{bold_start}async: -{end}")
         print("Definition: The async keyword is used to define an asynchronous function, or coroutine. It allows you to write asynchronous code that can run concurrently with other code. For example, the statement async def my_coroutine() defines a new asynchronous function.")
-        async def my_coroutine():
-            return "This is an async function"
-        my_coroutine_result = my_coroutine()
-        print(f"Example Result: {bold_start}{my_coroutine_result}{end}")
+        print("Example Result:")
+        import asyncio
+
+        # An async function that simulates a long-running task
+        async def fetch_data():
+            print("Fetching data...")
+            await asyncio.sleep(2)  # Simulating a delay of 2 seconds
+            print("Data fetched!\n")
+
+        # Another async function that simulates processing data
+        async def process_data():
+            print("Processing data...")
+            await asyncio.sleep(1)  # Simulating a shorter delay of 1 second
+            print("Data processed!")
+
+        # Main function that runs both coroutines
+        async def main():
+            # We can run these two async functions concurrently using asyncio.gather
+            await asyncio.gather(fetch_data(), process_data())
+
+        # Running the main coroutine
+        asyncio.run(main())
         time.sleep(1)
 
     # Await Keyword
     def Await():
         print(f"\n{bold_start}await: -{end}")
         print("Definition: The await keyword is used in asynchronous functions to specify a point in the function where control is given back to the event loop for other functions to run. For example, the statement await my_coroutine() calls the asynchronous function and waits for it to complete.")
+        print("Example Result:")
+        import asyncio
+
+        # Simulating a delay with asyncio.sleep
+        async def delay(seconds):
+            print(f"Waiting for {seconds} seconds...")
+            await asyncio.sleep(seconds)
+            print(f"Waited for {seconds} seconds!")
+
         async def main():
-            async def my_coroutine():
-                return "This is an async function"
-            result = await my_coroutine()
-            return result
-        main_result = main()
-        print(f"Example Result: {bold_start}{main_result}{end}")
+            print("Start fetching data...")
+            
+            # Await the delay coroutine, this pauses the execution of the main function until the delay is done
+            await delay(2)  # Waits for 2 seconds
+            
+            print("Data fetched after 2 seconds!\n")
+
+        # Running the event loop to execute the main coroutine
+        asyncio.run(main())
         time.sleep(1)
 
     # Read All
