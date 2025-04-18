@@ -1,23 +1,55 @@
-# Class 02 Assignment - March 3
+# 🧮 Class 02 Assignment – March 2
 
-## Assignment
+Hey there! 👋🏻  
+This is my submission for **Assignment 2** of the **GIAIC Q3** course. In this task, I explored the powerful world of **Python operators**. From simple arithmetic to identity checks, each section includes clear examples to solidify my understanding. 🔍🐍
 
-Create a GitHub repository with simple code examples for each of the following Python operators:
+## ✅ Assignment Topics
 
-- Arithmetic operators
-- Assignment operators
-- Comparison operators
-- Logical operators
-- Identity operators
-- Membership operators
-- Bitwise operators
+This assignment covers all the major types of **Python operators**, explained with real examples for each:
 
-Learn more about these operators here:
-[Python Operators - W3Schools](https://www.w3schools.com/python/python_operators.asp)
+- ➕ **Arithmetic Operators**
+- 👥 **Comparison Operators**
+- 🔁 **Logical Operators**
+- 💡 **Bitwise Operators**
+- 🟢 **Assignment Operators**
+- 🧠 **Identity Operators**
+- 🔎 **Membership Operators**
 
-**Submit Assignment Form:** [https://forms.gle/FQGGj6xQYjai6v5JA](https://forms.gle/FQGGj6xQYjai6v5JA)
+Each operator is explained with practical code snippets to help grasp its usage and output. This was a fun deep-dive into the building blocks of Python logic and flow! 💻✨
 
-## Note
+## 📱 My Socials
+Let's connect and grow together in this learning journey! 🌐✨
 
-- Feel free to complete the assignment in any way you like, using resources from the internet such as youtube videos, articles, etc.
-- You can use ChatGPT or any other AI tools to learn the concepts, but you should write the code in your own hands (not copy-paste).
+🐦 Twitter (X): [@iamabdulrehman5](https://x.com/iamabdulrehman5)
+
+💼 LinkedIn: [Abdul Rehman Jiwani](https://pk.linkedin.com/in/abdul-rehman-jiwani)
+
+## 📚 Course Details
+
+- **Course**: GIAIC (Governor Sindh Initiative of Artificial Intelligence and Computing)  
+- **Instructor**: [Sir Asharib Ali](https://github.com/AsharibAli)
+
+
+## 🛠️ How to Run the Code
+
+You can run this assignment code locally by following the steps below:
+
+### **Clone the Repo:**
+```bash
+git clone https://github.com/ProgrammerABDUL/GIAIC-Q3-Class-Assignments.git
+cd Assignment_2
+```
+
+### Run the Code:
+Open a terminal and execute:
+
+```bash
+python main.py
+```
+And that’s it! The script should run smoothly. 🧠💻
+
+Happy Coding! ✨  
+
+Let’s keep pushing forward and make the most out of this journey. 💪🏻😎
+
+Thanks for Reading 😘

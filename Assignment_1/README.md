@@ -30,7 +30,7 @@ You can run this assignment code locally by following the steps below:
 
 ### **Clone the Repo:**
 ```bash
-git clone https://github.com/ProgrammerABDUL/GIAIC-Q3-Assignments.git
+git clone https://github.com/ProgrammerABDUL/GIAIC-Q3-Class-Assignments.git
 cd Assignment_1
 ```
 
