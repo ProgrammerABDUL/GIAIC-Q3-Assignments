@@ -1,8 +1,8 @@
-def Airthmetic_Operators(x, y):
-    """This function demonstrates the examples of airthmetic operators in Python."""
+def Arithmetic_Operators(x, y):
+    """This function demonstrates the examples of Arithmetic operators in Python."""
 
     # Heading
-    print("\nAirthmetic Operators: -\n")
+    print("\nArithmetic Operators: -\n")
 
     # Addition
     print("Addition:")
